@@ -11,7 +11,6 @@ class Robot:
         else:
             self.move_right()
 
-
     def move_left(self):
         self.robot.move_ip(-self.speed, 0)
 
