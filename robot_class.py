@@ -6,8 +6,6 @@ class Robot:
         self.robot = pygame.Rect(300, 300, 10, 10)
 
     def update(self):
-
-        #EXAMPLE ON BASIC MOVEMENT
         if self.robot.centerx > 500: 
             self.move_left()
         else:

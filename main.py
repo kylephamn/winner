@@ -1,5 +1,5 @@
 import pygame
-from robot_class import Robot 
+from robot_class import Robot
 
 pygame.init()
 clock = pygame.time.Clock()
